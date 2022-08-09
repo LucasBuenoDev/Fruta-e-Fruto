@@ -1,0 +1,16 @@
+.banner__imagem {
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(90vh - 51px);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: calc(100vh - 72px);
+    }
+}
